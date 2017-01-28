@@ -58,7 +58,7 @@ pair<int,int> query(int node, int start, int end, int i, int j){
 	pair<int,int> p2= query(2*node+1, mid+1, end, i, j);
 	return nodeUnion(p1, p2);
 }
-
+ 
 int main() {
 	si(n);
 	for(int i=0; i<n; i++){
