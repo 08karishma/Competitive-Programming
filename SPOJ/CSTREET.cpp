@@ -54,4 +54,4 @@ int main() {
 		printf("%lld\n", cost*minCost());
 	}
 	return 0;
-}
+} 
