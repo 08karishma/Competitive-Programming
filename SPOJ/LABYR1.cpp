@@ -36,7 +36,7 @@ pair<int, pair<int,int>> bfs(pair<int,int> p){
 	}
 	pair<int, pair<int,int>> ans;
 	ans.first=dep; ans.second.first=x; ans.second.second=y;
-	return ans;
+	return ans; 
 }
 
 int main() {
