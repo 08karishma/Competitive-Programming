@@ -40,4 +40,4 @@ int main() {
 		printf("%d\n", lucky[x]);
 	}
 	return 0;
-}
+} 
